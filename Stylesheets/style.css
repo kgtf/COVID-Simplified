@@ -1,0 +1,306 @@
+*{
+  margin:0;
+  padding:0;
+  border:0;
+}
+
+body {
+  background-color: #99ddff;
+}
+
+h1 {
+  text-align: center;
+  font-size: 6vw;
+  color: blue;
+  position: relative;
+  padding-top: 1.5vw;
+}
+
+h2 {
+  text-align: center;
+  font-size: 6vw;
+  color: maroon
+}
+
+h3 {
+  font-size:3vw;
+  text-align:center;
+}
+
+
+.homepage_img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:35vw;
+}
+
+.logo {
+  width:10vw;
+  margin: 0%;
+  padding-left: 2vw;
+
+}
+
+.menubar {
+  background: black;
+}
+
+.navbar {
+  width:70%;
+  display:inline-block;
+  vertical-align: top;
+  font-size: 1.5vw;
+  text-align: center;
+  padding-top: 2.2vw;
+  padding-left:8vw;
+  padding-right:8.5vw;
+  overflow: hidden;
+}
+
+.navbar a {
+  color: #fff;
+  float:left;
+  display: block;
+  text-align: center;
+  line-height: 5vw;
+  padding:  0vw 0.5vw;
+  text-decoration: none;
+}
+.navbar a:link {
+  color:white;
+}
+
+.navbar a:visited {
+  color: cyan;
+}
+
+.navbar a:hover {
+  color:orange;
+  cursor: pointer;
+  background-color: darkcyan;
+}
+
+.navbar a:active {
+  color: red;
+  background-color: white;
+}
+
+
+
+.navbar .icon {
+  display: none;
+}
+
+
+@media screen and (max-width: 900px) {
+  .navbar a:not(:first-child) {display: none;}
+  .navbar a.icon {
+    float: right;
+    display: block;
+  }
+
+
+}
+
+@media screen and (max-width: 900px) {
+  .navbar.responsive {
+    position: relative;
+  }
+
+  .navbar.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-right:4vw;
+    margin-top:2vw;
+  }
+
+  .navbar.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+.contentbar {
+  border: 3px black solid;
+  margin:auto;
+  background-color:#fed8b1;
+  text-align:center;
+  width:fit-content;
+  max-width: 80%;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.contentbar ul li {
+  display:inline;
+  -type: none;
+  font-size:2vw;
+  display:inline-block;
+  padding: 1.3vw;
+}
+
+.contentbar ul li a {
+  color: black;
+  text-decoration: none;
+  padding: 1vw;
+}
+
+.contentbar ul li a:hover {
+  background-color: #e3c7aa;
+  height: 2vw;
+}
+
+.information {
+  margin:0 auto;
+  padding:3% 0;
+  background-color: lightpink;
+  width:90%;
+}
+
+.information h2 {
+  font-size:4vw;
+  color: black;
+}
+
+.information p {
+  width:80%;
+  margin: 0 auto;
+  font-size:2vw;
+  text-align: center;
+}
+
+.information ul {
+  width: 70%;
+  margin: 0 auto;
+  font-size:2vw;
+}
+
+.information h3 {
+  width: 80%;
+  text-align:center;
+  margin: 0 auto;
+}
+
+.no-bullet {
+  list-style-type: none;
+}
+
+.image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+.krish_pic {
+  width:15%;
+  margin-right:3vw;
+  display:inline;
+  vertical-align: top;
+}
+
+.vidvath_pic {
+  width:18%;
+  margin-right:3vw;
+  display:inline;
+  vertical-align: top;
+}
+
+.about-paragraph {
+    width:70%;
+    margin: 0 auto;
+    text-align: justify;
+    font-size: 2vw;
+    display:inline-block;
+    vertical-align: top;
+    font-family: Georgia;
+    line-height: 4vw;
+    color: red;
+  }
+
+.web-paragraph {
+      width:70%;
+      margin: 0 auto;
+      text-align: justify;
+      font-size: 2vw;
+      display:inline-block;
+      vertical-align: top;
+      font-family: Georgia;
+      line-height: 4vw;
+      color: red;
+    }
+
+.webpic {
+  height:19vw;
+  background-color: black;
+  border-radius: 20%;
+  margin-left: 2vw;
+  margin-right: 2vw;
+}
+
+.references ul{
+  width: 90%;
+  margin: 0 auto;
+  font-size:2vw;
+}
+
+.references ul li ul{
+  font-weight: normal;
+}
+
+.references ul li ul li ul{
+  font-size: 2vw;
+  font-weight: normal;
+}
+.bigger_bolder {
+  font-weight: bolder;
+  font-size:2.5vw;
+}
+
+.big_bold {
+  font-weight: bold;
+  font-size: 2.1vw;
+}
+
+
+#numbers_disclaimer {
+  text-align: center;
+  font-size: 2vw;
+}
+
+table {
+  margin: auto;
+}
+
+thead th, td {
+  background: black;
+  color: #FFF;
+  font-family: 'Lato', times-new-roman;
+  font-size: 2.5vw;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  width:fit-content;
+  max-width: 80%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+tr {
+  /*background: #f4f7f8;*/
+  border-bottom: 1px solid #FFF;
+  margin-bottom: 5px;
+}
+
+th, td {
+  font-weight: 400;
+  padding: 18px;
+  /*text-align: left;*/
+  /*width: 33.3333%;*/
+}
+
+td {
+  background: gray;
+}
